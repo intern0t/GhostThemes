@@ -20,12 +20,15 @@
                 <a href="{{@blog.url}}">{{@blog.description}}</a>
                 <span class="logotize">{{@blog.title}}</span>
             </li>
-            <li><a href="https://twitter.com/jsumeet" target="_blank">@jsumeet</a></li>
-            <li><a href="{{@blog.url}}" >sumitjaju.in</a></li>
-            <li><a href="mailto:karma@sumitjaju.in?subject=hi Sumit!">say&nbsp;hi</a></li>
-            <li><a href="/feed" target="_blank">rss feed</a></li>
+            <li><a href="{{@blog.url}}" >prashant.me</a></li>
+            <li><a href="https://github.com/intern0t" target="_blank">github</a></li>
+            <li><a href="https://trakt.tv/users/scarecr0w" target="_blank">takt.TV</a></li>
+            <li><a href="{{@blog.url}}/search">search</a></li>
+            <li><a href="{{@blog.url}}/feed" target="_blank">rss feed</a></li>
             <li><hr class="overlord_nav"></li>
-            <li><a href="{{@blog.url}}/aboutus/">about us</a></li>
+            <li><a href="{{@blog.url}}/aboutus">about us</a></li>
+            <li><a href="{{@blog.url}}/donate">changelog</a></li>
+            <li><a href="{{@blog.url}}/donate">donate</a></li>
         </ul>
         <a class="page-title-post" href="{{@blog.url}}">
             {{@blog.title}}
@@ -50,7 +53,7 @@
             {{content}}
         </section>
         
-        <section id="email-box" class="cf">
+        <!--<section id="email-box" class="cf">
             <hr>    
             <p class="title">Subscribe to coderange</p>
             <form accept-charset="UTF-8" action="#" class="new_subscription" data-remote="true" id="new_subscription" method="post">
@@ -66,7 +69,7 @@
                 
             </form>
             
-        </section>
+        </section>-->
 
         <footer class="post-footer">
 
@@ -91,9 +94,7 @@
                 <div class="author-meta">
                     {{#if location}}<span class="ion-location author-location">{{location}}</span>{{/if}}
                     {{#if website}}<span class="author-link ion-link"><a href="{{website}}">{{website}}</a></span>{{/if}}
-                    <a class="twitterFollowBtn" href="https://twitter.com/intent/follow?screen_name=jsumeet">
-                        <i class="icon ion-social-twitter"></i>Follow @jsumeet
-                    </a>
+                    <div class="g-follow" data-href="https://plus.google.com/103926809512413702332" data-rel="author" data-height="20"></div>
                 </div>
                 
             </section>
